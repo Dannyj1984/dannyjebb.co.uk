@@ -1,0 +1,89 @@
+/*This is a CSS comment*/
+
+
+
+
+body {
+	background-color:lightblue;
+}
+
+.navbar
+{
+
+background-color: #d6dadb;
+width: auto;
+height: auto;
+overflow:hidden;
+margin-left:20px;
+margin-right:20px;
+border-radius: 15px 50px 15px 50px;
+font-size: 50px;
+font-family: 'Indie Flower', cursive;
+color: #2C4969
+}
+
+.navbar a {
+  float: left;
+  display:block;
+  color: #f2f2f2;
+  border-radius:15px 15px 15px 15px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+/* Change the color of links on hover */
+.navbar a:hover  {
+  background-color: #0000cc;
+  border-radius: 15px 15px 15px 50px;
+  color: #c4e3e8;
+}
+
+/* Add an active class to highlight the current page */
+.navbar a.active {
+  background-color: #99ccff;
+  border-radius:15px 15px 15px 50px;;
+  color: white;
+}
+
+.navbar .icon {
+	display:none;
+}
+
+.col-sm-4 {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 940px) {
+    body {
+        background-image:none;
+    }
+}
+
+
+@media screen and (max-width: 940px){
+	.navbar a:not(:first-child) {display: none;}
+	  .navbar a.icon {
+	    float: right;
+	    display: block;
+	  }
+}
+
+@media screen and (max-width: 940px) {
+	.navbar.responsive {position: relative;}
+	  .navbar.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+		
+		.navbar.responsive a {
+			float: none;
+			display: block;
+			text-align: left;
+			
+	}
+}

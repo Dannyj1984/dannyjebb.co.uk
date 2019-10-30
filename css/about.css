@@ -1,0 +1,48 @@
+/*This is a CSS comment*/
+
+h1
+{
+	font-size: 40px;
+	text-align: center;
+	color: inherit;
+}
+
+h2
+{
+	font-size: 34px;
+	text-align: center;
+}
+
+
+
+
+
+body {
+padding: 0;
+text-align: justify;
+font-family: "Indie Flower", Verdana, sans-serif;
+font-size: 13px;
+color: #25323A;
+background-color:lightblue;
+background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p 
+{
+	color: black;
+	font-size: 20px;
+}
+
+
+
+#footer {
+position: absolute; left: 12px; top: 740px;
+width: 680px;
+height:60px;
+text-align:center;
+font-size:10px;
+color:red;
+padding-top:24px;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+}

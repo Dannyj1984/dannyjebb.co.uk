@@ -1,0 +1,44 @@
+/*This is a CSS comment*/
+
+body {
+
+background-image: url(assets/code.jpg);
+
+}
+
+p 
+{
+	color: black;
+	font-size: 30px;
+}
+
+
+
+a
+{
+text-decoration:none;
+color:#2C4969;
+}
+
+@media screen and (max-width: 940px) {
+    
+   img {
+        width: 75%;
+        height: auto;
+    }
+    
+    
+}
+
+
+
+#footer {
+position: absolute; left: 12px; top: 740px;
+width: 680px;
+height:60px;
+text-align:center;
+font-size:10px;
+color:red;
+padding-top:24px;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+}

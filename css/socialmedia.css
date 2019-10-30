@@ -1,0 +1,47 @@
+
+
+
+
+.accounts1 {
+	column-count:3;
+	column-gap:20px;
+	
+}
+
+.accounts2 {
+    column-count:1;
+    
+}
+
+.insta {
+	text-align:center;
+}
+
+.facebook {
+	text-align:center;
+}
+
+.linkedin {
+    text-align:center;
+    margin:10px;
+}
+
+.linkedin img {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 940px) {
+    
+    .accounts1 {
+	column-count:1;
+	column-gap:20px;
+	
+}
+    
+   img {
+        width: 75%;
+        height: auto;
+    }
+    
+    
+}
