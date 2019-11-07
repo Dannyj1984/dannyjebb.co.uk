@@ -1,0 +1,48 @@
+p{
+    margin: 10px 30px 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+h3{
+    font-family: 'Indie Flower', cursive;
+}
+
+h4{
+    font-family: 'Indie Flower', cursive;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+img {
+    width:100%;
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 940px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+

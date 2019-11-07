@@ -1,0 +1,40 @@
+/*This is a CSS comment*/
+
+
+
+
+p {text-align: left;
+}
+
+.ourchead
+{
+font-size: 24px;
+margin-left: 20px;
+}
+/*added in the reference for the heading in the data page*/
+.ourcdata
+{
+	font-size: 24px;
+	margin-left: 20px;
+}
+
+
+
+a
+{
+text-decoration:none;
+color:#2C4969;
+}
+
+
+
+#footer {
+position: absolute; left: 12px; top: 740px;
+width: 680px;
+height:60px;
+text-align:center;
+font-size:10px;
+color:red;
+padding-top:24px;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+}

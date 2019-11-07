@@ -1,0 +1,44 @@
+/*This is a CSS comment*/
+
+
+body {
+padding: 0;
+text-align: justify;
+font-family: "Century Gothic", Verdana, sans-serif;
+font-size: 13px;
+color: #25323A;
+background-color:#c4e3e8;
+}
+
+p 
+{
+	color: black;
+	font-size: 30px;
+}
+
+.container {
+    border-radius:15px 15px 15px 15px;
+    background:#d6dadb;
+    width:50%;
+}
+
+
+
+
+a
+{
+text-decoration:none;
+color:#2C4969;
+}
+
+/*Change form width to 75% on a smaller screen*/
+@media screen and (max-width: 940px) {
+  .container {
+    border-radius:15px 15px 15px 15px;
+    background:#d6dadb;
+    width:75%;
+}
+}
+
+
+

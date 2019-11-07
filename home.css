@@ -1,0 +1,45 @@
+/*This is a CSS comment*/
+
+
+
+body {
+padding: 0;
+text-align: justify;
+font-family:'Indie Flower', cursive;
+font-size: 13px;
+color: #25323A;
+background-image: none;
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+
+p 
+{
+	color: black;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.container{
+    background-color: #d6dadb;
+    border-radius:15px 15px 15px 15px;
+    font-family: 'Indie Flower', cursive;
+    width:75%;
+}
+
+
+
+
+
+
+#footer {
+position: absolute; left: 12px; top: 740px;
+width: 680px;
+height:60px;
+text-align:center;
+font-size:10px;
+color:red;
+padding-top:24px;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+}
