@@ -1,3 +1,7 @@
+<?php
+session_start();
+include 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,8 +29,6 @@
 	<a href="DJ_family.php">Family</a> 
 	<a href="DJ_socialmedia.php">Social Media</a> 
 	<a href="DJ_contactme.php" class="active">Contact Me</a>
-	<a href="DJ_signup.php">Sign up</a>
-	<a href="DJ_login.php">Log in</a>
 	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 	    <i class="fa fa-bars"></i>
 	  </a>
@@ -46,8 +48,9 @@
 	<!--Form action to run php script to send data to an email-->
 	<form method="post" action="../php/contactform.php">
 		<div class="form-group">
+			
 	  <label for="firstname"> First Name:</label>
-	  <input type="text" name="firstname" id="firstname" class="form-control" required="true">
+	  <input type="text" name="firstname" id="firstname" class="form-control" >
   		</div>
 		<div>
 	  <label for="lastname"> Last Name:</label>
@@ -55,7 +58,7 @@
   		</div>
 		<div>
 	  <label for="mail"> E-mail:</label>
-	  <input type="email" name="email" id="mail" class="form-control" required="true">
+	  <input type="email" name="email" id="mail" class="form-control" >
   </div>
   <div>
 	  <label for="number"> Phone:</label>
@@ -63,7 +66,7 @@
   </div>
   <div>
 	  <label for="msg"> Message:</label>
-	  <textarea type="text" name="message" id="msg" class="form-control" required="true" rows="5" cols="50"></textarea>
+	  <textarea type="text" name="message" id="msg" class="form-control"  rows="5" cols="50"></textarea>
   </div>
   <div>
 	  <input type="checkbox" name="consent" id="consent">                 Do you consent to us contacting you in regards to your query?

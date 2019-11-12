@@ -1,4 +1,7 @@
-
+<?php
+session_start();
+include 'header.php';
+?>
 
 <!DOCTYPE html>
 
@@ -39,14 +42,28 @@
 	<div class="jumbotron text-center">
 		
 		<h1>Log in</h1>
+		<?php
+    if(isset($_SESSION['userid'])) {
+        echo '<p class="login-status">You are logged in</p><br><form action="includes/logout.inc.php" method="POST">
+				<button type="submit" name="logout-submit">Logout</button>
+				</form>';
+    } else {
+        echo '<p class="login-status">You are not logged in</p>';
+    }
+    
+    ?>
 			
 	</div>
 	
 	<!--Form which sends data to signup.php to go to the database-->
 
 	<div class="container">
-
-		<form action="includes/login.inc.php" method="POST" >
+	    
+	    <?php
+    if(isset($_SESSION['userid'])) {
+        echo '';
+    } else {
+        echo '<form action="includes/login.inc.php" method="POST" >
 			<div class="form-group">
 			    
 				<label for="username">Username</label>
@@ -55,11 +72,32 @@
 				<label for="password">Password</label>
 				<input type="password" name="password" class="form-control">
 
-				<button type="submit" name="submit">Log in</button>
+				<button type="submit" name="login-submit">Log in</button>
+				</form>';
+				
+				
+    }
+    
+    ?>
 
-			</div>
+		<!--<form action="includes/login.inc.php" method="POST" >-->
+		<!--	<div class="form-group">-->
+			    
+		<!--		<label for="username">Username</label>-->
+		<!--		<input type="text" name="username" class="form-control">-->
+
+		<!--		<label for="password">Password</label>-->
+		<!--		<input type="password" name="password" class="form-control">-->
+
+		<!--		<button type="submit" name="login-submit">Log in</button>-->
+		<!--		</form>-->
+		<!--		<form action="includes/logout.inc.php" method="POST">-->
+		<!--		<button type="submit" name="logout-submit">Logout</button>-->
+		<!--		</form>-->
+
+		<!--	</div>-->
 		
-		</form>
+		<!--</form>-->
 	</div>
 	
 	<script>

@@ -1,3 +1,7 @@
+<?php
+session_start();
+include 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	
 	<link rel="stylesheet" href="css/nav.css"/>
-	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/jumbotron.css">
 	<link rel="stylesheet" href="css/home.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light%26display=swap" rel="stylesheet">
@@ -16,6 +20,9 @@
     <title>Home</title>
 </head>
 <body>
+    <div id="page-container">
+   		<div id="content-wrap">
+    
     
     <!--Navigation-->
 	
@@ -27,8 +34,7 @@
 	<a href="DJ_family.php">Family</a> 
 	<a href="DJ_socialmedia.php">Social Media</a> 
 	<a href="DJ_contactme.php">Contact Me</a>
-	<a href="DJ_signup.php">Sign up</a>
-	<a href="DJ_login.php">Log in</a>
+	
 	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 	    <i class="fa fa-bars"></i>
 	  </a>
@@ -38,6 +44,7 @@
 	
 	<div class="jumbotron text-center">
 	<h1> Daniel Jebb </h1>
+	
 	</div>
 	
 	<!--Information text-->
@@ -45,7 +52,7 @@
 	<div class="container">
 	    <div class="info">
 	    <h1>Manchester based Computer Science student </h1>
-	    <p>The aim of this website is to showcase some of my experience so far and to give some insight into the kind of person I am. All the source code for this site can be viewed on my github page. See the software development page for info. </p>
+	    <p id="maintext">The aim of this website is to showcase some of my experience so far and to give some insight into the kind of person I am. All the source code for this site can be viewed on my github page. See the software development page for info. </p>
 	    </div>
 	</div>
 	
@@ -62,11 +69,13 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	  </div>
 	  
 	  <?php
 // at bottom:
 include('footer.php');
 ?>
+</div>
 
 </body>
 

@@ -1,3 +1,7 @@
+<?php
+session_start();
+include 'header.php';
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -26,8 +30,6 @@
 	<a href="DJ_family.php">Family</a> 
 	<a href="DJ_socialmedia.php">Social Media</a> 
 	<a href="DJ_contactme.php">Contact Me</a>
-	<a href="DJ_signup.php">Sign up</a>
-	<a href="DJ_login.php">Log in</a>
 	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 	    <i class="fa fa-bars"></i>
 	  </a>
