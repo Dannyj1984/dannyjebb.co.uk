@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	
 	<link rel="stylesheet" href="css/nav.css">
-	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/jumbotron.css">
 	<link rel="stylesheet" href="css/contactus.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light%26display=swap" rel="stylesheet">
