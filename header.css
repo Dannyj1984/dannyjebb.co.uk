@@ -1,0 +1,25 @@
+.login-btn {
+	font-size:17px;
+	
+}
+.container-fluid {
+	text-align: right;
+	padding-right: 400px;
+}
+
+input[type=text]:focus {
+	border: 3px solid #555;
+}
+input[type=password]:focus {
+	border: 3px solid #555;
+}
+
+.header-form{
+	width:15%;
+	vertical-align: all;
+}
+
+#signup {
+	font-size: 20px
+}
+
